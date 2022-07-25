@@ -1,0 +1,7 @@
+.i18n_flag img {
+    width: 16px;
+    vertical-align: text-top;
+}
+.no-upper h2 {
+  text-transform: unset;
+}

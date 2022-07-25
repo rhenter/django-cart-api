@@ -1,0 +1,28 @@
+{% extends 'admin/base_site.html' %}
+{% load i18n %}
+{% load i18n_switcher %}
+{% load static %}
+
+
+{% block userlinks %}
+    {{ block.super }}
+{% endblock %}
+
+{% block breadcrumbs %}
+    <div class="breadcrumbs">
+        <a href="{% url 'admin:index' %}">{% trans 'Home' %}</a>
+        &rsaquo; <a href="{{ changelist_url }}">{{ origin }}</a>
+        &rsaquo; Import
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div>
+        <form action="." method="POST" enctype="multipart/form-data">
+            {{ form.as_p }}
+            {% csrf_token %}
+            <button type="submit">Upload JSON</button>
+        </form>
+    </div>
+    <br/>
+{% endblock %}

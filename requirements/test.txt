@@ -1,0 +1,19 @@
+-r production.txt
+coverage
+django-pdb
+factory_boy
+faker
+flake8
+freezegun
+model-bakery
+mockredis
+pytest
+pytest-cache
+pytest-celery
+pytest-cov
+pytest-factoryboy
+pytest-django
+pytest-timeout
+pytest-xdist
+vcrpy
+pytest-vcr

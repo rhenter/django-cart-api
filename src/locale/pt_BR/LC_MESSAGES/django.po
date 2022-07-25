@@ -1,0 +1,1558 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-09 14:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: src/apps/base/admin.py:73 src/apps/setup/admin.py:51
+msgid "About"
+msgstr "Sobre"
+
+#: src/apps/base/admin.py:128
+msgid "Dependent Col"
+msgstr "Coluna de Dependencia"
+
+#: src/apps/base/admin.py:129 src/apps/setup/constants.py:29
+msgid "Dependent Cols"
+msgstr "Coluna de Dependencias"
+
+#: src/apps/base/admin.py:145
+msgid "Deviation Col"
+msgstr "Coluna de Desvio"
+
+#: src/apps/base/admin.py:146 src/apps/setup/constants.py:30
+msgid "Deviation Cols"
+msgstr "Colunas de Desvio"
+
+#: src/apps/base/admin.py:162
+msgid "Input Col"
+msgstr "Coluna de Input"
+
+#: src/apps/base/admin.py:163 src/apps/setup/constants.py:31
+msgid "Input Cols"
+msgstr "Colunas de Input"
+
+#: src/apps/base/admin.py:195 src/apps/base/models.py:166
+#: src/apps/base/models.py:186
+msgid "Resource"
+msgstr "Recurso"
+
+#: src/apps/base/admin.py:196 src/apps/base/models.py:167
+msgid "Resources"
+msgstr "Recursos"
+
+#: src/apps/base/admin.py:227
+msgid "ABOUT"
+msgstr "SOBRE"
+
+#: src/apps/base/admin.py:230
+msgid "NOTIFICATIONS"
+msgstr "NOTIFICAÇÕES"
+
+#: src/apps/base/admin.py:233
+msgid "DATA ANALYSIS"
+msgstr "ANÁLISE DE DADOS"
+
+#: src/apps/base/apps.py:7
+msgid "Base"
+msgstr ""
+
+#: src/apps/base/constants.py:7 src/apps/chart/apps.py:7
+msgid "Chart"
+msgstr "Gráfico"
+
+#: src/apps/base/constants.py:8
+msgid "Incident Table"
+msgstr "Tabela de Incidentes"
+
+#: src/apps/base/constants.py:9 src/apps/metric/apps.py:7
+msgid "Metric"
+msgstr "Métrica"
+
+#: src/apps/base/constants.py:12
+msgid "Level 1 (Per seconds)"
+msgstr "Nivel 1 (Por segundos)"
+
+#: src/apps/base/constants.py:13
+msgid "Level 2 (Per each 1 minute)"
+msgstr "Nivel 2 (Por cada 1 minuto)"
+
+#: src/apps/base/constants.py:14
+msgid "Level 3 (Per each 5 minutes)"
+msgstr "Nivel 3 (Por cada 5 minutos)"
+
+#: src/apps/base/models.py:19 src/apps/base/models.py:79
+#: src/apps/base/models.py:99
+msgid "Code"
+msgstr ""
+
+#: src/apps/base/models.py:20 src/apps/base/models.py:56
+#: src/apps/base/models.py:80 src/apps/base/models.py:100
+#: src/apps/base/models.py:157 src/apps/setup/models.py:19
+#: src/apps/setup/models.py:57 src/apps/setup/models.py:113
+msgid "Name"
+msgstr "Nome"
+
+#: src/apps/base/models.py:21 src/apps/base/models.py:156
+#: src/apps/setup/models.py:22 src/apps/setup/models.py:63
+msgid "Slug"
+msgstr ""
+
+#: src/apps/base/models.py:27 src/apps/base/models.py:59
+#: src/apps/base/models.py:81 src/apps/base/models.py:112
+#: src/apps/notification/models.py:40 src/apps/notification/models.py:76
+#: src/apps/setup/models.py:30 src/apps/setup/models.py:71
+#: src/apps/status/models.py:27
+msgid "Is Active"
+msgstr "Esta Ativo?"
+
+#: src/apps/base/models.py:30 src/apps/base/models.py:54
+#: src/apps/base/models.py:77 src/apps/collector/models.py:240
+msgid "Plant"
+msgstr "Usina"
+
+#: src/apps/base/models.py:31
+msgid "Plants"
+msgstr "Usinas"
+
+#: src/apps/base/models.py:57
+msgid "group"
+msgstr "grupo"
+
+#: src/apps/base/models.py:58
+msgid "Is Initial"
+msgstr "É Inicial"
+
+#: src/apps/base/models.py:62
+msgid "Tag"
+msgstr ""
+
+#: src/apps/base/models.py:63
+msgid "Tags"
+msgstr ""
+
+#: src/apps/base/models.py:84 src/apps/base/models.py:95
+msgid "Area"
+msgstr "Área"
+
+#: src/apps/base/models.py:85
+msgid "Areas"
+msgstr "Áreas"
+
+#: src/apps/base/models.py:101
+msgid "Description"
+msgstr "Descrição"
+
+#: src/apps/base/models.py:107 src/apps/collector/models.py:249
+msgid "Granularity level"
+msgstr "Nível de granularidade"
+
+#: src/apps/base/models.py:108
+msgid "Granularity level of data analysis"
+msgstr "Nível de granularidade da análise de dados"
+
+#: src/apps/base/models.py:110 src/apps/base/models.py:190
+#: src/apps/troubleshoot/models.py:20
+msgid "Sort"
+msgstr "Ordenar"
+
+#: src/apps/base/models.py:111
+msgid "Is Asset"
+msgstr "Asset"
+
+#: src/apps/base/models.py:113 src/apps/status/models.py:53
+msgid "Coming Soon"
+msgstr "Em Breve"
+
+#: src/apps/base/models.py:114 src/apps/setup/models.py:72
+#: src/apps/user/models.py:30
+msgid "Allow Email Notifications"
+msgstr "Permitir Notificações por Email"
+
+#: src/apps/base/models.py:115 src/apps/setup/models.py:73
+#: src/apps/user/models.py:31
+msgid "Allow Push Notifications"
+msgstr "Permitir Notificações por Push"
+
+#: src/apps/base/models.py:116 src/apps/setup/models.py:74
+#: src/apps/user/models.py:32
+msgid "Allow SMS Notifications"
+msgstr "Permitir Notificações por Push"
+
+#: src/apps/base/models.py:119 src/apps/base/models.py:179
+#: src/apps/chart/models.py:14 src/apps/incident/models.py:22
+#: src/apps/metric/models.py:20 src/apps/notification/models.py:93
+#: src/apps/setup/models.py:14 src/apps/setup/models.py:45
+#: src/apps/status/models.py:16
+msgid "Section"
+msgstr "Secção"
+
+#: src/apps/base/models.py:120
+msgid "Sections"
+msgstr "Secções"
+
+#: src/apps/base/models.py:162 src/apps/notification/models.py:121
+msgid "Type"
+msgstr "Tipo"
+
+#: src/apps/base/models.py:193
+msgid "Section Resource"
+msgstr "Recurso da Secção"
+
+#: src/apps/base/models.py:194
+msgid "Section Resources"
+msgstr "Recursos da Secção"
+
+#: src/apps/chart/models.py:19 src/apps/metric/models.py:25
+msgid "Content Type"
+msgstr "Tipo do Conteúdo"
+
+#: src/apps/chart/models.py:21 src/apps/metric/models.py:27
+msgid "Content"
+msgstr "Conteúdo"
+
+#: src/apps/chart/models.py:24
+msgid "Section Chart"
+msgstr "Grafico da Secção"
+
+#: src/apps/chart/models.py:25
+msgid "Section Charts"
+msgstr "Graficos da Secção"
+
+#: src/apps/chart/serializers.py:60 src/apps/metric/serializers.py:48
+#: src/apps/setup/serializers.py:91 src/apps/status/serializers.py:67
+msgid "This Field is Required."
+msgstr "Este campo é obrigatório."
+
+#: src/apps/collector/apps.py:7
+msgid "Collector"
+msgstr "Coletor"
+
+#: src/apps/collector/models.py:208
+msgid "JTN Collector Level 1 (raw data)"
+msgstr "Coletor JTN Nivel 1 (dados não tratados)"
+
+#: src/apps/collector/models.py:209
+msgid "JTN Collectors Level 1 (raw data)"
+msgstr "Coletores JTN Nivel 1 (dados não tratados)"
+
+#: src/apps/collector/models.py:219
+msgid "JTN Collector Level 2 (1 min)"
+msgstr "Coletor JTN Nivel 2 (1 min)"
+
+#: src/apps/collector/models.py:220
+msgid "JTN Collectors Level 2 (1 min)"
+msgstr "Coletores JTN Nivel 2 (1 min)"
+
+#: src/apps/collector/models.py:230
+msgid "JTN Collector Level 3 (5 min)"
+msgstr "Coletor JTN Nivel 3 (5 min)"
+
+#: src/apps/collector/models.py:231
+msgid "JTN Collectors Level 3 (5 min)"
+msgstr "Coletores JTN Nivel 3 (5 min)"
+
+#: src/apps/collector/models.py:242
+msgid "Timestamp"
+msgstr ""
+
+#: src/apps/collector/models.py:253
+msgid "Sections Update Event Sent"
+msgstr "Evento de Atualização de Secções enviado"
+
+#: src/apps/collector/models.py:254
+msgid "Sections Update Events Sent"
+msgstr "Eventos de Atualização de Secções enviado"
+
+#: src/apps/core/admin.py:64
+msgid "Parameters"
+msgstr "Parametros"
+
+#: src/apps/core/admin.py:71
+msgid "Result"
+msgstr "Resultados"
+
+#: src/apps/core/apps.py:7
+msgid "Core"
+msgstr ""
+
+#: src/apps/core/constants.py:4
+msgid "Danger"
+msgstr "Perigo"
+
+#: src/apps/core/constants.py:5
+msgid "Disabled"
+msgstr "Disativado"
+
+#: src/apps/core/constants.py:6
+msgid "Success"
+msgstr "Sucesso"
+
+#: src/apps/core/constants.py:7
+msgid "Warning"
+msgstr "Atenção"
+
+#: src/apps/core/forms.py:8
+msgid "New password"
+msgstr "Nova senha"
+
+#: src/apps/core/forms.py:11
+msgid "New password (verify)"
+msgstr "Nova senha (verificar)"
+
+#: src/apps/core/forms.py:30
+msgid "The two password fields didn't match."
+msgstr "As 2 senhas são diferentes."
+
+#: src/apps/core/models.py:7 src/apps/core/models.py:31
+#: src/apps/notification/models.py:109 src/apps/user/models.py:38
+msgid "User"
+msgstr "Usuário"
+
+#: src/apps/core/models.py:8
+msgid "Store"
+msgstr "Loja"
+
+#: src/apps/core/models.py:19
+msgid "Profile Type"
+msgstr "Tipo de Perfil"
+
+#: src/apps/core/models.py:21
+msgid "Terms of Service text"
+msgstr "Texto do Termos de Serviço"
+
+#: src/apps/core/models.py:24
+msgid "Terms of Service"
+msgstr "Termos de Serviço"
+
+#: src/apps/core/models.py:25
+msgid "Terms of service"
+msgstr "Termos de Serviço"
+
+#: src/apps/core/models.py:29
+msgid "Host"
+msgstr ""
+
+#: src/apps/core/models.py:30
+msgid "Port"
+msgstr "Porta"
+
+#: src/apps/core/models.py:32 src/frontend/templates/login.html:59
+msgid "Password"
+msgstr "Senha"
+
+#: src/apps/core/models.py:33
+msgid "Use TLS"
+msgstr "Usar TLS"
+
+#: src/apps/core/models.py:34
+msgid "Use SSL"
+msgstr "Usar SSL"
+
+#: src/apps/core/models.py:35
+msgid "Timeout"
+msgstr ""
+
+#: src/apps/core/models.py:36
+msgid "SSL Keyfile"
+msgstr ""
+
+#: src/apps/core/models.py:37
+msgid "SSL Certfile"
+msgstr ""
+
+#: src/apps/core/models.py:38
+msgid "Active"
+msgstr "Ativo"
+
+#: src/apps/core/models.py:41 src/apps/core/models.py:42
+msgid "Email Settings"
+msgstr "Configurações de Email"
+
+#: src/apps/core/serializers.py:21 src/apps/core/serializers.py:40
+msgid "Invalid CNPJ."
+msgstr "CNPJ Invalido"
+
+#: src/apps/core/views/http_status.py:8
+msgid "Access Denied"
+msgstr "Acesso Negado"
+
+#: src/apps/core/views/http_status.py:16
+msgid "Page Not Found"
+msgstr "Pagina não encontrada"
+
+#: src/apps/core/views/login.py:59
+msgid "Your username or password do not match."
+msgstr "Seu usuário ou senha estão incorretos."
+
+#: src/apps/incident/apps.py:7 src/apps/incident/models.py:86
+msgid "Incident"
+msgstr "Incidente"
+
+#: src/apps/incident/models.py:13 src/apps/setup/constants.py:20
+#: src/apps/status/constants.py:11
+msgid "Alert"
+msgstr "Alerta"
+
+#: src/apps/incident/models.py:14 src/apps/setup/constants.py:21
+#: src/apps/status/constants.py:12
+msgid "Alarm"
+msgstr "Alarme"
+
+#: src/apps/incident/models.py:29 src/apps/notification/models.py:100
+#: src/apps/status/models.py:30
+msgid "Section Status"
+msgstr "Status da Secção"
+
+#: src/apps/incident/models.py:34 src/apps/setup/models.py:77
+#: src/apps/troubleshoot/models.py:13
+msgid "Section Setup"
+msgstr "Configuração da Secção"
+
+#: src/apps/incident/models.py:41
+msgid "Incident Type"
+msgstr "Tipo do Incidente"
+
+#: src/apps/incident/models.py:44 src/apps/user/admin.py:79
+msgid "Group"
+msgstr "Grupo"
+
+#: src/apps/incident/models.py:46
+msgid "Incident Date"
+msgstr "Data Valida"
+
+#: src/apps/incident/models.py:82
+msgid "Is Close"
+msgstr "Fechado"
+
+#: src/apps/incident/models.py:83
+msgid "Closed At"
+msgstr "Fechado em"
+
+#: src/apps/incident/models.py:87
+msgid "Incidents"
+msgstr "Incidentes"
+
+#: src/apps/metric/models.py:10
+msgid "Gauge"
+msgstr ""
+
+#: src/apps/metric/models.py:11
+msgid "Indicator"
+msgstr "Indicador"
+
+#: src/apps/metric/models.py:12
+msgid "Indicator Info"
+msgstr "Informação do Indicador"
+
+#: src/apps/metric/models.py:30
+msgid "Section Metric"
+msgstr "Métrica da Secção"
+
+#: src/apps/metric/models.py:31
+msgid "Section Metrics"
+msgstr "Métricas da Secção"
+
+#: src/apps/notification/apps.py:7 src/apps/notification/models.py:138
+msgid "Notification"
+msgstr "Notificações"
+
+#: src/apps/notification/constants.py:4
+msgid "Minutes"
+msgstr "Minutos"
+
+#: src/apps/notification/constants.py:5
+msgid "Hours"
+msgstr "Horas"
+
+#: src/apps/notification/constants.py:6
+msgid "Days"
+msgstr "Dias"
+
+#: src/apps/notification/constants.py:9
+msgid "Email"
+msgstr ""
+
+#: src/apps/notification/constants.py:10
+msgid "Push"
+msgstr ""
+
+#: src/apps/notification/constants.py:11
+msgid "System"
+msgstr "Sistema"
+
+#: src/apps/notification/constants.py:12
+msgid "SMS"
+msgstr ""
+
+#: src/apps/notification/constants.py:13
+msgid "WhatsApp"
+msgstr ""
+
+#: src/apps/notification/constants.py:16
+msgid "Incident Opened"
+msgstr "Incidente Aberto"
+
+#: src/apps/notification/constants.py:17
+msgid "Incident Closed"
+msgstr "Incidente Fechado"
+
+#: src/apps/notification/constants.py:18
+msgid "Incident Reminder"
+msgstr "Lembrete do Incidente"
+
+#: src/apps/notification/constants.py:19
+msgid "Welcome User"
+msgstr "Boas Vindas"
+
+#: src/apps/notification/constants.py:20
+msgid "Direct"
+msgstr "Direta"
+
+#: src/apps/notification/models.py:22
+msgid "Interval to Next Notification"
+msgstr "Intervalo para o envio das proximas notificação"
+
+#: src/apps/notification/models.py:25
+msgid ""
+"interval that the next email will be sent informing you that the same "
+"problem keeps happening"
+msgstr ""
+
+#: src/apps/notification/models.py:32
+msgid "Sending Interval Type"
+msgstr "Tipo de Intervalo para o envio"
+
+#: src/apps/notification/models.py:37
+msgid "Notify back to normal?"
+msgstr "Notificar volta a normalidade?"
+
+#: src/apps/notification/models.py:38
+msgid ""
+"Enable or Disable sending notification stating that the issue has been "
+"resolved"
+msgstr ""
+
+#: src/apps/notification/models.py:43
+msgid "Setting"
+msgstr "Configuração"
+
+#: src/apps/notification/models.py:44
+msgid "Settings"
+msgstr "Configurações"
+
+#: src/apps/notification/models.py:65
+msgid "Sending Mode"
+msgstr "Modo de Envio"
+
+#: src/apps/notification/models.py:72
+msgid "Notification Type"
+msgstr "Tipo de Notificação"
+
+#: src/apps/notification/models.py:74 src/apps/notification/models.py:114
+msgid "Subject"
+msgstr "Assunto"
+
+#: src/apps/notification/models.py:75 src/apps/notification/models.py:116
+msgid "Message"
+msgstr "Mensagem"
+
+#: src/apps/notification/models.py:79
+msgid "Template"
+msgstr ""
+
+#: src/apps/notification/models.py:80
+msgid "Templates"
+msgstr ""
+
+#: src/apps/notification/models.py:125
+msgid "Notify by Whatsapp"
+msgstr "Notificar por WhatApp"
+
+#: src/apps/notification/models.py:128
+msgid "Notify by Email"
+msgstr "Notificar por Email"
+
+#: src/apps/notification/models.py:130
+msgid "Notify by Push"
+msgstr "Notificar por Push"
+
+#: src/apps/notification/models.py:132
+msgid "Send Without Template"
+msgstr "Enviar sem Template"
+
+#: src/apps/notification/models.py:139 src/apps/setup/admin.py:54
+#: src/apps/user/admin.py:39
+msgid "Notifications"
+msgstr "Notificações"
+
+#: src/apps/setup/apps.py:7 src/apps/setup/models.py:109
+msgid "Setup"
+msgstr ""
+
+#: src/apps/setup/constants.py:12
+msgid "Integer"
+msgstr "Inteiro"
+
+#: src/apps/setup/constants.py:13
+msgid "String"
+msgstr "Caracter"
+
+#: src/apps/setup/constants.py:14
+msgid "Float"
+msgstr ""
+
+#: src/apps/setup/constants.py:15
+msgid "Decimal"
+msgstr ""
+
+#: src/apps/setup/models.py:27
+msgid "Column Type"
+msgstr "Tipo do Coluna"
+
+#: src/apps/setup/models.py:33
+msgid "Target Variable"
+msgstr "Variável Alvo"
+
+#: src/apps/setup/models.py:34
+msgid "Target Variables"
+msgstr "Variáveis Alvo"
+
+#: src/apps/setup/models.py:52
+msgid "Target Cols"
+msgstr "Colunas Alvo"
+
+#: src/apps/setup/models.py:60
+msgid "Short Description"
+msgstr "Pequena Descrição"
+
+#: src/apps/setup/models.py:68
+msgid "Setup Type"
+msgstr "Tipo do Configuração"
+
+#: src/apps/setup/models.py:78
+msgid "Section Setups"
+msgstr "Configurações da Secção"
+
+#: src/apps/setup/models.py:114
+msgid "Value"
+msgstr "Valor"
+
+#: src/apps/setup/models.py:116
+msgid "Value Type"
+msgstr "Tipo de Valor"
+
+#: src/apps/setup/models.py:117
+msgid "Type that will be used to cast the value"
+msgstr "Tipo que será usado para converter(Cast) o valor"
+
+#: src/apps/setup/models.py:121
+msgid "Parameter Setup"
+msgstr "Parâmetro do Setup"
+
+#: src/apps/setup/models.py:122
+msgid "Parameters Setup"
+msgstr "Parâmetro do Setup"
+
+#: src/apps/status/apps.py:7 src/apps/status/models.py:24
+msgid "Status"
+msgstr ""
+
+#: src/apps/status/constants.py:9 src/apps/status/models.py:48
+msgid "No Updated Data"
+msgstr "Sem dados Atualizados"
+
+#: src/apps/status/constants.py:10
+msgid "OK"
+msgstr ""
+
+#: src/apps/status/models.py:26
+msgid "Updated at"
+msgstr "Atualizado em"
+
+#: src/apps/status/models.py:31
+msgid "Sections Status"
+msgstr "Status da Secção"
+
+#: src/apps/status/models.py:44
+msgid "Requires Attention"
+msgstr "Requer Atenção"
+
+#: src/apps/status/models.py:46
+msgid "Not OK"
+msgstr "Não OK"
+
+#: src/apps/trend_image/apps.py:7
+msgid "Status Trends"
+msgstr ""
+
+#: src/apps/troubleshoot/apps.py:7
+msgid "Troubleshoot"
+msgstr ""
+
+#: src/apps/troubleshoot/models.py:17
+msgid "Step Description"
+msgstr "Descrição do Passo"
+
+#: src/apps/troubleshoot/models.py:18
+msgid "Do not starts with any bullets or numbering"
+msgstr "Não comece com marcadores ou numeração"
+
+#: src/apps/troubleshoot/models.py:23
+msgid "Troubleshoot Step"
+msgstr "Passo do Troubleshoot"
+
+#: src/apps/troubleshoot/models.py:24
+msgid "Troubleshoot Steps"
+msgstr "Passos do Troubleshoot"
+
+#: src/apps/user/admin.py:16
+msgid "Generate a new Activation Code"
+msgstr "Gerar um codigo de Ativação Novo"
+
+#: src/apps/user/admin.py:31
+msgid "Personal info"
+msgstr "Informação Pessoal"
+
+#: src/apps/user/admin.py:45 src/apps/user/models.py:24
+msgid "Activation Code"
+msgstr "Codigo de Ativação"
+
+#: src/apps/user/admin.py:46
+msgid "Permissions"
+msgstr "Permissões"
+
+#: src/apps/user/admin.py:49
+msgid "Important dates"
+msgstr "Datas Importates"
+
+#: src/apps/user/admin.py:80
+msgid "Groups"
+msgstr "Grupos"
+
+#: src/apps/user/apps.py:7
+msgid "Authentication and Authorization"
+msgstr "Autenticação e Autorização"
+
+#: src/apps/user/models.py:21
+msgid "Is Temp"
+msgstr "É Temporário?"
+
+#: src/apps/user/models.py:22
+msgid "Indicate if the user complete the registration or not"
+msgstr "Indica se o usuário completou o cadastro ou não"
+
+#: src/apps/user/models.py:33
+msgid "Allow WhatsApp Notifications"
+msgstr "Permite Notificações por WhatsApp"
+
+#: src/apps/user/models.py:39
+msgid "Users"
+msgstr "Usuários"
+
+#: src/apps/user/serializers/base.py:70
+msgid "A user with this cellphone already exists."
+msgstr "Um usuario com este celular ja existe."
+
+#: src/apps/user/serializers/base.py:82
+msgid "User not Found."
+msgstr "Usuário não encontrado"
+
+#: src/apps/user/serializers/base.py:85
+msgid "Activation Code Invalid."
+msgstr "Codigo de Ativação Inválido."
+
+#: src/frontend/templates/admin/base_site.html:17
+msgid "Environment"
+msgstr "Ambiente"
+
+#: src/frontend/templates/admin/base_site.html:33
+msgid "Documentation"
+msgstr "Documentação"
+
+#: src/frontend/templates/admin/base_site.html:37
+msgid "Change password"
+msgstr "Alterar Senha"
+
+#: src/frontend/templates/admin/base_site.html:39
+msgid "Log out"
+msgstr "Sair"
+
+#: src/frontend/templates/admin/base_site.html:47
+msgid "Delete?"
+msgstr "Excluir?"
+
+#: src/frontend/templates/emails/resend_password_email.html:373
+msgid "Hi "
+msgstr "Ola "
+
+#: src/frontend/templates/emails/resend_password_email.html:378
+msgid "See you."
+msgstr "Até mais"
+
+#: src/frontend/templates/emails/resend_password_email.html:396
+msgid "Don't like these emails?"
+msgstr ""
+
+#: src/frontend/templates/login.html:23
+msgid "Welcome to Cart  API"
+msgstr "Bem Vindo a API Cart "
+
+#: src/frontend/templates/login.html:41
+msgid "Login"
+msgstr ""
+
+#: src/frontend/templates/login.html:45
+msgid "Username or Email"
+msgstr "Email"
+
+#: src/cart_api/utils.py:102
+msgid "{} years and {} months"
+msgstr "{} anos e {} meses"
+
+#~ msgid "No Data"
+#~ msgstr "Sem Dados Atualizados"
+
+#~ msgid "Parent Incident Instance"
+#~ msgstr "Instancia do Incidente Pai"
+
+#~ msgid "Action Text"
+#~ msgstr "Codigo da Ação"
+
+#~ msgid "Accumulators"
+#~ msgstr "Acumuladores"
+
+#~ msgid "Electric Motor"
+#~ msgstr "Motor Elétrico"
+
+#~ msgid "Electrode Fast Lift"
+#~ msgstr "Eletrodo de Levant. Rápido"
+
+#~ msgid "Pressure Filter"
+#~ msgstr "Filtro de Pressão"
+
+#~ msgid "Heat Exchange"
+#~ msgstr "Troca de Calor"
+
+#~ msgid "Main Pressure"
+#~ msgstr "Pressão Principal"
+
+#~ msgid "Phase Voltages"
+#~ msgstr "Tensões de Fase"
+
+#~ msgid "Pilot Pressure"
+#~ msgstr "Pressão Piloto"
+
+#~ msgid "Pump Drain"
+#~ msgstr "Dreno de Bomba"
+
+#~ msgid "Return Filter"
+#~ msgstr "Filtro de Retorno"
+
+#~ msgid "Leakages"
+#~ msgstr "Vazamentos"
+
+#~ msgid "Tank Level SYS 3"
+#~ msgstr "Nível do tanque SYS 3"
+
+#~ msgid "Tank Oil Temperature"
+#~ msgstr "Temp. do Oleo do Tanque"
+
+#~ msgid "Tilt Speed"
+#~ msgstr "Velocidade de inclinação"
+
+#~ msgid "Directional Valves"
+#~ msgstr "Válvulas direcionais"
+
+#~ msgid "Cylinders"
+#~ msgstr "Cilindros"
+
+#~ msgid "Section/Type"
+#~ msgstr "Secção/Tipo"
+
+#~ msgid "Coming Soon/Disabled"
+#~ msgstr "Em Breve/Desativado"
+
+#~ msgid "Setup Name/Key"
+#~ msgstr "Nome da configuração/Chave"
+
+#~ msgid "Setup Indicators"
+#~ msgstr "Indicadores da Configuração"
+
+#~ msgid "Agreement"
+#~ msgstr "Contratos"
+
+#~ msgid "Category Data"
+#~ msgstr "Dados de Categoria"
+
+#~ msgid "Images"
+#~ msgstr "Imagens"
+
+#~ msgid "Segment"
+#~ msgstr "Segmento"
+
+#~ msgid "Company"
+#~ msgstr "Empresa"
+
+#~ msgid "Segments"
+#~ msgstr "Segmentos"
+
+#~ msgid "Company Name"
+#~ msgstr "Razão Social"
+
+#~ msgid "Companies"
+#~ msgstr "Empresas"
+
+#~ msgid "Contact Info"
+#~ msgstr "Informação de contato"
+
+#~ msgid "Message Details"
+#~ msgstr "Detalhes da Mensagem"
+
+#~ msgid "Text Message"
+#~ msgstr "Texto da Mensagem"
+
+#~ msgid "E-Mail"
+#~ msgstr "Email"
+
+#~ msgid "Cellphone"
+#~ msgstr "Celular"
+
+#~ msgid "System Notification"
+#~ msgstr "Notificações do Sistema"
+
+#~ msgid "Read"
+#~ msgstr "Lido"
+
+#~ msgid "Read at"
+#~ msgstr "Lido em"
+
+#~ msgid "Address (Street, number and complement)"
+#~ msgstr "Endereço (Rua, número e complemento)"
+
+#~ msgid "Number"
+#~ msgstr "Número"
+
+#~ msgid "Neighborhood"
+#~ msgstr "Bairro"
+
+#~ msgid "City"
+#~ msgstr "Cidade"
+
+#~ msgid "Country"
+#~ msgstr "País"
+
+#~ msgid "Postal Code"
+#~ msgstr "CEP"
+
+#~ msgid "Location in Map"
+#~ msgstr "Localização no Mapa"
+
+#~ msgid "Point(longitude latitude)"
+#~ msgstr "Ponto(longitude latitude)"
+
+#~ msgid "Address"
+#~ msgstr "Endereço"
+
+#~ msgid "Addresses"
+#~ msgstr "Endereços"
+
+#~ msgid "Model code"
+#~ msgstr "Código"
+
+#~ msgid "All Users"
+#~ msgstr "Todos Usuários"
+
+#~ msgid "VIP Users"
+#~ msgstr "Usuários VIP"
+
+#~ msgid "Active Users"
+#~ msgstr "Usuários que utilizam a plataforma"
+
+#~ msgid "Details"
+#~ msgstr "Detalhes"
+
+#~ msgid "Price"
+#~ msgstr "Preço"
+
+#~ msgid "Promotion Details"
+#~ msgstr "Detalhes da Promoção"
+
+#~ msgid "Discount"
+#~ msgstr "Desconto"
+
+#~ msgid "Stores"
+#~ msgstr "Lojas"
+
+#~ msgid "Discount (%)"
+#~ msgstr "Desconto (%)"
+
+#~ msgid "Image"
+#~ msgstr "Imagem"
+
+#~ msgid "Rules"
+#~ msgstr "Regulamento"
+
+#~ msgid "Featured"
+#~ msgstr "Destaque"
+
+#~ msgid "Discount Start Date"
+#~ msgstr "Data Início da Promoção"
+
+#~ msgid "Discount End Date"
+#~ msgstr "Data de Término da Promoção"
+
+#~ msgid "Card Generation Limit by User"
+#~ msgstr "Limite de geração de cartões por Usuário"
+
+#~ msgid "Number of times the user can check in. Set 0 to unlimited."
+#~ msgstr ""
+#~ "Número de vezes que o usuário pode fazer check-in. Coloque 0 para "
+#~ "ilimitado."
+
+#~ msgid "Promotion"
+#~ msgstr "Promoção"
+
+#~ msgid "Promotions"
+#~ msgstr "Promoções"
+
+#~ msgid "The Maximum value is 100"
+#~ msgstr "O Valor Máximo é 100"
+
+#~ msgid "Geo Location"
+#~ msgstr "Geo Localização"
+
+#~ msgid "Enterprise"
+#~ msgstr "Empreendimento"
+
+#~ msgid "Enterprises"
+#~ msgstr "Empreendimentos"
+
+#~ msgid "Event Details"
+#~ msgstr "Detalhes do Evento"
+
+#~ msgid "Event"
+#~ msgstr "Evento"
+
+#~ msgid "Free"
+#~ msgstr "Gratuíto"
+
+#~ msgid "Paid"
+#~ msgstr "Pago"
+
+#~ msgid "Event Date"
+#~ msgstr "Data do Evento"
+
+#~ msgid "Events"
+#~ msgstr "Eventos"
+
+#~ msgid "Purchase"
+#~ msgstr "Compra"
+
+#~ msgid "Others"
+#~ msgstr "Outros"
+
+#~ msgid "Title"
+#~ msgstr "Titulo"
+
+#~ msgid "Field of Activity"
+#~ msgstr "Ramo de Atividade"
+
+#~ msgid "Value with Discount"
+#~ msgstr "Valor com Desconto"
+
+#~ msgid "Card Values"
+#~ msgstr "Valor dos Cartões"
+
+#~ msgid "Place"
+#~ msgstr "Local"
+
+#~ msgid "Campaign"
+#~ msgstr "Campanha"
+
+#~ msgid "Card Details"
+#~ msgstr "Detalhes do Cartão"
+
+#~ msgid "Gift Card"
+#~ msgstr "Gift Card"
+
+#~ msgid "Created and not active"
+#~ msgstr "Criado e não ativo"
+
+#~ msgid "Opened"
+#~ msgstr "Aberto"
+
+#~ msgid "Green"
+#~ msgstr "Verde"
+
+#~ msgid "Blue"
+#~ msgstr "Azul"
+
+#~ msgid "Black"
+#~ msgstr "Preto"
+
+#~ msgid "Campaign Start Date"
+#~ msgstr "Data Início da Campanha"
+
+#~ msgid "Campaign End Date"
+#~ msgstr "Data de Término da Campanha"
+
+#~ msgid "Gift Card Validate Date"
+#~ msgstr "Data de Validade do Gift Card"
+
+#~ msgid "Base Green Card Price"
+#~ msgstr "Base de Preço do Gift Card Verde"
+
+#~ msgid "Base Blue Card Price"
+#~ msgstr "Base de Preço do Gift Card Azul"
+
+#~ msgid "Base Black Card Price"
+#~ msgstr "Base de Preço do Gift Card Preto"
+
+#~ msgid "Gift Card Campaign"
+#~ msgstr "Campanha do Gift Card"
+
+#~ msgid "Gift Card Campaigns"
+#~ msgstr "Campanha de Gift Cards"
+
+#~ msgid "Gift Card Expiration Date"
+#~ msgstr "Data de Validade do Gift Card"
+
+#~ msgid "Gift Cards"
+#~ msgstr "Gift Cards"
+
+#~ msgid "Quantity Base"
+#~ msgstr "Quantidade"
+
+#~ msgid "Gift Card Price"
+#~ msgstr "Preço do Gift Card"
+
+#~ msgid "Gift Card Prices"
+#~ msgstr "Preços do Gift Card"
+
+#~ msgid "Is Used"
+#~ msgstr "Usado"
+
+#~ msgid "Gift Card Token"
+#~ msgstr "Token do Gift Card"
+
+#~ msgid "Gift Card Tokens"
+#~ msgstr "Tokens do Gift Card"
+
+#~ msgid "Token Not Found."
+#~ msgstr "Token não encontrado."
+
+#~ msgid "Token Expired."
+#~ msgstr "Token Expirado."
+
+#~ msgid "Gift Card already used."
+#~ msgstr "Gift Card ja foi usado."
+
+#~ msgid "Gift Card Expired."
+#~ msgstr "Gift Card Expirado."
+
+#~ msgid "landing"
+#~ msgstr "landing"
+
+#~ msgid "Common User"
+#~ msgstr "Usário Comum"
+
+#~ msgid "PDV User"
+#~ msgstr "Usuário Lojista"
+
+#~ msgid "Virtual Card Creation"
+#~ msgstr "Criação do Cartão Virtual"
+
+#~ msgid "Virtual Card Used"
+#~ msgstr "Utilização do Cartão Virtual"
+
+#~ msgid "Gift Card Purchase"
+#~ msgstr "Compra do Gift Card"
+
+#~ msgid "Gift Card Used"
+#~ msgstr "Utilização do Gift Card"
+
+#~ msgid "Notification message code"
+#~ msgstr "Codigo da Notificação"
+
+#~ msgid "Message Recipient"
+#~ msgstr "Destinatario da mensagem"
+
+#~ msgid "Message Type"
+#~ msgstr "Tipo da mensagem"
+
+#~ msgid "Notification Templates"
+#~ msgstr "Template de Notificação"
+
+#~ msgid "Notification code"
+#~ msgstr "Codigo de Notificação"
+
+#~ msgid "parking"
+#~ msgstr "estacionamento"
+
+#~ msgid "Parking Discount"
+#~ msgstr "Desconto de Estacionamento"
+
+#~ msgid "Parking Discounts"
+#~ msgstr "Descontos de Estacionamento"
+
+#~ msgid "Ticket Value"
+#~ msgstr "Valor do Ticket"
+
+#~ msgid "Parking Discount Campaign"
+#~ msgstr "Campanha de Desconto de Estacionamento"
+
+#~ msgid "Parking Discounts Campaign"
+#~ msgstr "Campanha de Descontos de Estacionamento"
+
+#~ msgid "Start Time"
+#~ msgstr "Hora Início"
+
+#~ msgid "End Time"
+#~ msgstr "Hora Fim"
+
+#~ msgid "PromoCodes"
+#~ msgstr "PromoCodes"
+
+#~ msgid "PromoCode Batch"
+#~ msgstr "Lote de PromoCode"
+
+#~ msgid "Total Amount"
+#~ msgstr "Valor total"
+
+#~ msgid "Amount with Discount"
+#~ msgstr "Valor total com desconto"
+
+#~ msgid "Transaction"
+#~ msgstr "Transação"
+
+#~ msgid "Credit Card Number Last Four Digits"
+#~ msgstr "Ultimos 4 digitos do Cartão de Cŕedito"
+
+#~ msgid "Aliansce Order ID"
+#~ msgstr "Código do Pedido na Aliansce"
+
+#~ msgid "As Gift"
+#~ msgstr "Como Presente"
+
+#~ msgid "Gifted Name"
+#~ msgstr "Nome do Presenteado"
+
+#~ msgid "Gifted CPF"
+#~ msgstr "CPF do Presenteado"
+
+#~ msgid "Message to the Gifted"
+#~ msgstr "Mensagem para o Presenteado"
+
+#~ msgid "Purchases"
+#~ msgstr "Compras"
+
+#~ msgid "Gifted Information are required."
+#~ msgstr "As Informações do Presenteado são requiridas."
+
+#~ msgid "Gifted CPF is required."
+#~ msgstr "CPF do Presenteado é obrigatório."
+
+#~ msgid "Invalid CPF"
+#~ msgstr "CPF inválido"
+
+#~ msgid "General Evaluation"
+#~ msgstr "Avaliação Geral"
+
+#~ msgid "Comment"
+#~ msgstr "Comentário"
+
+#~ msgid "Question code"
+#~ msgstr "Codigo da Pergunta"
+
+#~ msgid "Question code identifier"
+#~ msgstr "Identificador da Pergunta"
+
+#~ msgid "Question"
+#~ msgstr "Pergunta"
+
+#~ msgid "Sale"
+#~ msgstr "Venda"
+
+#~ msgid "Sonae Aliansce IDs"
+#~ msgstr "IDs da API da Aliansce"
+
+#~ msgid "Company Approval"
+#~ msgstr "Aprovação da Empresa"
+
+#~ msgid "Aliansce Homologation API ID"
+#~ msgstr "Código de Homologação da API da Aliansce"
+
+#~ msgid "Aliansce Production API ID"
+#~ msgstr "Código de Produção da API da Aliansce"
+
+#~ msgid "Manual Added"
+#~ msgstr "Adicionado Manualmente"
+
+#~ msgid "Added by Partiu Team"
+#~ msgstr "Loja adicionado manualmente pela equipe da partiu"
+
+#~ msgid "Never Active"
+#~ msgstr "Nunca Ativar"
+
+#~ msgid "Mask this to never mark as active"
+#~ msgstr ""
+#~ "Marque esta flag caso queira que esta loja nunca seja marcada como ativa"
+
+#~ msgid "Store Phone"
+#~ msgstr "Telefone da Loja"
+
+#~ msgid "Store Phones"
+#~ msgstr "Telefones da Loja"
+
+#~ msgid "Floor"
+#~ msgstr "Piso"
+
+#~ msgid "Store Location"
+#~ msgstr "Localização da Loja"
+
+#~ msgid "Store Locations"
+#~ msgstr "Localizações da Loja"
+
+#~ msgid "Subscriptions"
+#~ msgstr "Assinaturas"
+
+#~ msgid "Agreement and PDV"
+#~ msgstr "Contratos e PDV"
+
+#~ msgid "Social Network"
+#~ msgstr "Rede Sociais"
+
+#~ msgid "Approved"
+#~ msgstr "Aprovado"
+
+#~ msgid "Owner"
+#~ msgstr "Dono"
+
+#~ msgid "Manager"
+#~ msgstr "Gerente"
+
+#~ msgid "Seller"
+#~ msgstr "Vendedor"
+
+#~ msgid "Active Agreement"
+#~ msgstr "Convênio Ativo"
+
+#~ msgid "Active Staff?"
+#~ msgstr "Dono de qual Convênio?"
+
+#~ msgid "Favorite Discounts"
+#~ msgstr "Descontos Favoritos"
+
+#~ msgid "Favorite Store"
+#~ msgstr "Lojas Favoritos"
+
+#~ msgid "Preferences"
+#~ msgstr "Preferências"
+
+#~ msgid "Store PDV User"
+#~ msgstr "Usuário PDV de qual loja?"
+
+#~ msgid "PDV User Profile"
+#~ msgstr "Perfil do Usuário PDV"
+
+#~ msgid "Phone"
+#~ msgstr "Telefone"
+
+#~ msgid "Cellphone/Username Base"
+#~ msgstr "Celular/Base do nome do usuário"
+
+#~ msgid "Birth date"
+#~ msgstr "Data de Nascimento"
+
+#~ msgid "Allowed Promotional Emails"
+#~ msgstr "Permitiu Emails Promocionais"
+
+#~ msgid "Activation Code Date"
+#~ msgstr "Data de geração do Codigo de Ativação"
+
+#~ msgid "Temp User"
+#~ msgstr "Usuário P. de Criação"
+
+#~ msgid "Origin (Local or B2C)"
+#~ msgstr "Origem (Local or B2C)"
+
+#~ msgid "Terms of Use version"
+#~ msgstr "Versão do Termos de Serviço"
+
+#~ msgid "PDV Users"
+#~ msgstr "Usuários PDV"
+
+#~ msgid "The 2 passwords are different."
+#~ msgstr "As 2 senhas são diferentes."
+
+#~ msgid "Cellphone is required."
+#~ msgstr "Celular é obrigatório."
+
+#~ msgid "A user with this email already exists."
+#~ msgstr "Um usuário com este email ja existe."
+
+#~ msgid "There is already a user with this CPF"
+#~ msgstr "Já existe um usuario com este CPF"
+
+#~ msgid "Last Name is required."
+#~ msgstr "Sobrenome é obrigatório."
+
+#~ msgid "Cellphone must be validated before continue."
+#~ msgstr "O celular deve ser validado antes de continuar."
+
+#~ msgid "Make Invalid"
+#~ msgstr "Tornar inválido"
+
+#~ msgid "Make Renew"
+#~ msgstr "Fazer a Renovação"
+
+#~ msgid "Expired"
+#~ msgstr "Expirado."
+
+#~ msgid "Virtual Card"
+#~ msgstr "Cartão Virtual"
+
+#~ msgid "Total Purchase Amount"
+#~ msgstr "Valor total"
+
+#~ msgid "Virtual Cards"
+#~ msgstr "Cartões Virtuais"
+
+#~ msgid "The promotion of this code is no longer active."
+#~ msgstr "A promoção deste codigo não esta mais ativa."
+
+#, fuzzy
+#~| msgid "Code Not Found."
+#~ msgid "Store Not Found."
+#~ msgstr "Código não encontrado."
+
+#~ msgid "Discount Not Found."
+#~ msgstr "Disconto não encontrado."
+
+#~ msgid ""
+#~ "It was not possible to check in at this time. Please check the available "
+#~ "times to activate this discount."
+#~ msgstr ""
+#~ "Não foi possivel realizar o seu check-in neste momento. Favor verifique "
+#~ "os horários disponíveis para ativar este desconto"
+
+#~ msgid ""
+#~ "It was not possible to check in. You have already achieved the maximum "
+#~ "allowed."
+#~ msgstr ""
+#~ "Não foi possivel realizar o seu check-in. Você ja realizou o maximo "
+#~ "permitido."
+
+#~ msgid "Code Not Found."
+#~ msgstr "Código não encontrado."
+
+#~ msgid "Code Expired."
+#~ msgstr "Codigo Expirado."
+
+#~ msgid "Via Parque API"
+#~ msgstr "API Via Parque"
+
+#~ msgid "Aliansce API_id"
+#~ msgstr "ID do Pedido na Aliansce"
+
+#~ msgid "Message code identifier"
+#~ msgstr "Código da mensagem"
+
+#~ msgid "Card"
+#~ msgstr "Cartão"
+
+#~ msgid "Is Validated"
+#~ msgstr "Válido"
+
+#~ msgid "Favorite"
+#~ msgstr "Favorito"
+
+#~ msgid "Favorites"
+#~ msgstr "Favoritos"
+
+#~ msgid "Info"
+#~ msgstr "Info"
+
+#~ msgid "Rate"
+#~ msgstr "Avaliação"
+
+#, fuzzy
+#~| msgid "Active Agreement"
+#~ msgid "Active Agreement?"
+#~ msgstr "Dono de qual Convênio?"
+
+#~ msgid "Administrator"
+#~ msgstr "Administrador"
+
+#~ msgid "Home"
+#~ msgstr "Início"
+
+#~ msgid "Cancel"
+#~ msgstr "Cancelar"
+
+#~ msgid "Save"
+#~ msgstr "Salvar"
+
+#~ msgid "Back"
+#~ msgstr "Voltar"
+
+#~ msgid "Next"
+#~ msgstr "Próximo"
+
+#, fuzzy
+#~| msgid "Do you know Zara?"
+#~ msgid "Do you know"
+#~ msgstr "Você conhece"
+
+#, fuzzy
+#~| msgid "How to use?"
+#~ msgid "How to use"
+#~ msgstr "Como usar"
+
+#~ msgid "Pay only"
+#~ msgstr "Pague apenas"
+
+#~ msgid "Buy as a gift"
+#~ msgstr "Comprar como um presente"
+
+#~ msgid "for debit cards, see "
+#~ msgstr "para cartões de débito, consulte"
+
+#~ msgid "Buy"
+#~ msgstr "Comprar"
+
+#~ msgid "Women Clothes"
+#~ msgstr "Roupas Femininas"
+
+#~ msgid "Men Clothes"
+#~ msgstr "Roupas Masculinas"
+
+#~ msgid "Shoes"
+#~ msgstr "Calçados"
+
+#~ msgid "Restaurants"
+#~ msgstr "Restaurantes"
+
+#~ msgid "Clear"
+#~ msgstr "Limpar"
+
+#~ msgid "Featureds"
+#~ msgstr "Destaques"
+
+#~ msgid "All"
+#~ msgstr "Todos"

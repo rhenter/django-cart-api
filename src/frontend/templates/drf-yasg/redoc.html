@@ -1,0 +1,84 @@
+{% load static %}
+{% load i18n %}
+{% load i18n_switcher %}
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{{ title }}{% endblock %}</title>
+
+  {% block extra_head %}
+    {# -- Add any extra HTML heads tags here - except scripts and styles -- #}
+  {% endblock %}
+
+  {% block favicon %}
+    {# -- Maybe replace the favicon -- #}
+    <link rel="icon" type="image/png" href="{% static 'img/favicon.png' %}"/>
+  {% endblock %}
+
+  {% block main_styles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'drf-yasg/style.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/flags.css' %}"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  {% endblock %}
+  {% block extra_styles %}
+    {# -- Add any additional CSS scripts here -- #}
+  {% endblock %}
+</head>
+<body>
+
+{% block extra_body %}
+  <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-end">
+
+    <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+      <ul class="navbar-nav text-right">
+        <li>
+          <a class="nav-item nav-link" href="/admin/">
+            Django Admin
+          </a>
+        </li>
+        <li>
+          <a class="nav-item nav-link" href="{{ request|switch_i18n:'en' }}">
+            <span class="flag flag-us"></span>
+          </a>
+        </li>
+        <li class="divider"></li>
+        <li>
+          <a class="nav-item nav-link" href="{{ request|switch_i18n:'pt-br' }}">
+            <span class="flag flag-br"></span>
+          </a>
+        </li>
+        <li>
+          <a class="nav-item nav-link" href="/logout/">Logout</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <br>
+  {# -- Add any header/body markup here (rendered BEFORE the swagger-ui/redoc element) -- #}
+{% endblock %}
+
+<div id="redoc-placeholder"></div>
+
+{% block footer %}
+  {# -- Add any footer markup here (rendered AFTER the swagger-ui/redoc element) -- #}
+{% endblock %}
+
+<script id="redoc-settings" type="application/json">{{ redoc_settings | safe }}</script>
+
+{% block main_scripts %}
+  <script src="{% static 'drf-yasg/insQ.min.js' %}"></script>
+  <script src="{% static 'drf-yasg/url-polyfill.min.js' %}"></script>
+  <script src="{% static 'drf-yasg/redoc-init.js' %}"></script>
+  <script src="{% static 'drf-yasg/redoc/redoc.min.js' %}"></script>
+{% endblock %}
+{% block extra_scripts %}
+  {# -- Add any additional scripts here -- #}
+{% endblock %}
+</body>
+</html>
